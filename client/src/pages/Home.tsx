@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      
+
       <main>
         <section className="pt-32 pb-20 bg-background">
           <div className="container mx-auto px-4">
@@ -19,14 +19,15 @@ export default function Home() {
               className="max-w-3xl"
             >
               <h1 className="text-5xl font-bold mb-6">
-                Product Manager
+                {/* Edit your title here */}
+                Your Title Here
                 <br />
-                <span className="text-primary">Fintech Innovator</span>
+                <span className="text-primary">Your Specialty</span>
               </h1>
-              
+
               <p className="text-xl text-muted-foreground">
-                Bridging the gap between technology and financial services
-                to create exceptional user experiences.
+                {/* Edit your tagline here */}
+                Your professional tagline or brief description here.
               </p>
             </motion.div>
           </div>

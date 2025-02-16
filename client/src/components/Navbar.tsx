@@ -14,9 +14,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/">
-            <a className="text-xl font-bold">John Doe</a>
+            <a className="text-xl font-bold">Your Name</a>
           </Link>
-          
           <div className="hidden md:flex space-x-8">
             {links.map(({ href, label }) => (
               <a

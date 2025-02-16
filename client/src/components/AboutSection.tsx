@@ -6,27 +6,27 @@ import { Card, CardContent } from "@/components/ui/card";
 const experience = [
   {
     title: "Senior Product Manager",
-    company: "FinTech Corp",
+    company: "Your Company Name",
     period: "2020 - Present",
-    description: "Led development of digital payment solutions",
+    description: "Your role description",
   },
   {
     title: "Product Manager",
-    company: "Banking Solutions Inc",
+    company: "Previous Company Name",
     period: "2018 - 2020",
-    description: "Managed retail banking products",
+    description: "Your previous role",
   },
 ];
 
 const education = [
   {
-    degree: "MBA in Finance",
-    school: "Stanford University",
+    degree: "Your Degree",
+    school: "Your University",
     year: "2018",
   },
   {
-    degree: "BS in Computer Science",
-    school: "MIT",
+    degree: "Your Previous Degree",
+    school: "Your Previous School",
     year: "2016",
   },
 ];
@@ -42,15 +42,14 @@ export default function AboutSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl font-bold mb-8">About Me</h2>
-          
+
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <p className="text-lg mb-6">
-                Product manager with 5+ years of experience in fintech, 
-                specialized in creating innovative financial solutions that 
-                combine technical excellence with user-centered design.
+                Your professional summary here. Describe your experience,
+                expertise, and what makes you unique in the fintech space.
               </p>
-              
+
               <SkillsChart />
             </div>
 
@@ -61,7 +60,7 @@ export default function AboutSection() {
                     <Briefcase className="h-5 w-5" />
                     <h3 className="text-lg font-semibold">Experience</h3>
                   </div>
-                  
+
                   <div className="space-y-4">
                     {experience.map((job) => (
                       <div key={job.title} className="border-l-2 border-primary pl-4">
@@ -80,7 +79,7 @@ export default function AboutSection() {
                     <GraduationCap className="h-5 w-5" />
                     <h3 className="text-lg font-semibold">Education</h3>
                   </div>
-                  
+
                   <div className="space-y-4">
                     {education.map((edu) => (
                       <div key={edu.degree} className="border-l-2 border-primary pl-4">
